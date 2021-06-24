@@ -1,0 +1,46 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Navigations
+
+<SfTab Height="300px">
+    <TabItems>
+        <TabItem>
+            <ChildContent>
+                <TabHeader Text="Twitter"></TabHeader>
+            </ChildContent>
+            <ContentTemplate>
+                <div>
+                    Twitter is an online social networking service that enables users to send and read short 140-charactermessages called tweets.Registered users can read and post tweets, but those who are unregistered can only readthem.Users access Twitter through the website interface, SMS or mobile device app Twitter Inc. is based in SanFrancisco and has more than 25 offices around the world.Twitter was created in March 2006 by Jack Dorsey,Evan Williams, Biz Stone, and Noah Glass and launched in July 2006. The service rapidly gained worldwide popularity,with more than 100 million users posting 340 million tweets a day in 2012.The service also handled 1.6 billionsearch queries per day.
+                    Twitter introduced the first major redesign of its user interface in September 2010, adopting a dual-pane layout with a navigation bar along the top of the screen, and an increased focus on the inline embedding of multimedia content. Critics considered the redesign an attempt to emulate features and experiences found in mobile apps and third-party Twitter clients.The new layout was revised in 2011 with a focus on continuity with the web and mobile versions, introducing Connect (interactions with other users such as replies) and Discover (further information regarding trending topics and news headlines) tabs, an updated profile design, and moving all content to the right pane (leaving the left pane dedicated to functions and the trending topics list).In March 2012, Twitter became available in Arabic, Farsi, Hebrew and Urdu, the first right-to-left language versions of the site. About 13,000 volunteers helped with translating the menu options.In August 2012, beta support for Basque, Czech and Greek was added, making the site available in 33 different languages.
+                    In September 2012, a new layout for profiles was introduced, with larger covers that could be customized with a custom header image, and a display of the user's recent photos posted.The Discover tab was discontinued in April 2015, and was succeeded on the mobile app by an Explore tab—which features trending topics and moments.In September 2018, Twitter began to migrate selected web users to its progressive web app (based on its Twitter Lite experience for mobile web), reducing the interface to two columns. Migrations to this iteration of Twitter increased in April 2019, with some users receiving it with a modified layout.In July 2019, Twitter officially released this redesign, with no further option to opt-out while logged in. It is designed to further-unify Twitter's user experience between the web and application versions, adopting a three-column layout with a sidebar containing links to common areas (including Explore), and features from the mobile version (such as multi-account support, and an opt-out for the top tweets mode on the timeline).
+                </div>
+            </ContentTemplate>
+        </TabItem>
+        <TabItem>
+            <ChildContent>
+                <TabHeader Text="Facebook"></TabHeader>
+            </ChildContent>
+            <ContentTemplate>
+                <div>
+                    Facebook is an online social networking service headquartered in Menlo Park, California. Its website waslaunched on February 4, 2004, by Mark Zuckerberg with his Harvard College roommates and fellow students EduardoSaverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.
+                </div>
+            </ContentTemplate>
+        </TabItem>
+        <TabItem>
+            <ChildContent>
+                <TabHeader Text="Whatsapp"></TabHeader>
+            </ChildContent>
+            <ContentTemplate>
+                <div>
+                    WhatsApp Messenger is a proprietary cross-platform instant messaging client for smartphones that operatesunder a subscription business model.It uses the Internet to send text messages, images, video, user location andaudio media messages to other users using standard cellular mobile numbers. As of February 2016, WhatsApp had a userbase of up to one billion,[10] making it the most globally popular messaging application.WhatsApp Inc., based inMountain View, California, was acquired by Facebook Inc.on February 19, 2014, for approximately US$19.3 billion.
+                </div>
+            </ContentTemplate>
+        </TabItem>
+    </TabItems>
+</SfTab>
+
+<style>
+    .e-tab > .e-content {
+        overflow-y: auto;
+    }
+</style>

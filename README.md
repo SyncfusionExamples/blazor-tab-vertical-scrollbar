@@ -4,11 +4,11 @@ A quick start Blazor project that helps you to enable vertical scrollbar when th
 
 ## Prerequisites
 
-* Visual Studio 2019
+* Visual Studio 2022
 
 ## How to run this application?
 
 * Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2019.
+* Open the solution file using the Visual Studio 2022.
 * Restore the NuGet packages by rebuilding the solution.
 * Run the project.

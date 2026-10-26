@@ -16,12 +16,12 @@ The purpose of this project is to help developers understand how to work with th
 
 ## Prerequisites
 Ensure the following requirements are met before running this project:
-- Visual Studio 2022  
-- .NET SDK compatible with Blazor  
+- Visual Studio 2026 or later (or VS 2022 17.14+)  
+- .NET 10 SDK  
 
 ## Installation and Running the Application
 1. Check out or clone this repository to a local directory.
-2. Open the solution file using Visual Studio 2022.
+2. Open the solution file using Visual Studio 2026 or later (or VS 2022 17.14+).
 3. Restore the NuGet packages by rebuilding the solution.
 4. Build and run the project to view the Tabs component with vertical scrollbar enabled.
 
